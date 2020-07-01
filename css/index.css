@@ -42,12 +42,15 @@ div.header-layer-1 {
 }
 
 div.header-layer-1-inner {
+    display: flex;
+    align-items: baseline;
     margin: 0 auto;
     max-width: 1000px;
 }
 
 p.site-address{
     margin: 0 auto 0 0;
+    padding: 15px 0 2px 4px;
 }
 
 p.site-address, div.contact-links {
@@ -56,16 +59,17 @@ p.site-address, div.contact-links {
 }
 
 .fab, .fas {
-    font-size: 21px;
-    margin: 0 0 0 3px;
+    font-size: 27px;
+    margin: 0 0 0 6px;
     color: var(--dark-444-color);
+    cursor: pointer;
 }
 
 .lg-md-hide {
     display: none;
 }
 
-div.header-layer-1-inner, div.header-layer-2, ul {
+div.header-layer-2, ul {
     display: flex;
     align-items: center;
 }
@@ -90,6 +94,7 @@ ul > li {
 
 li {
     margin: 0 0 0 20px;
+    cursor: pointer;
 }
 
 li:nth-last-child(1) {
@@ -103,6 +108,7 @@ button {
     background: rgb(49, 49, 223);
     font-family: 'Raleway', sans-serif;
     color: white;
+    cursor: pointer;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -221,12 +227,12 @@ section.registration-section button {
     links section
     =============*/
 
-.links-section {
+section.links-section {
     background: var(--dark-222-color);
     color: var(--light-ddd-color);
 }
 
-.links-section-inner {
+div.links-section-inner {
     max-width: 1000px;
     margin: 0 auto;
     padding: 60px 0;
@@ -236,11 +242,11 @@ section.registration-section button {
     grid-gap: 50px;
 }
 
-.links-section ul {
+section.links-section ul {
     display: block;
 }
 
-.links-section li {
+section.links-section li {
     margin: 0;
 }
 
@@ -248,7 +254,7 @@ address {
     grid-column: 1/3;
 }
 
-.links-section h5 {
+section.links-section h5 {
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
@@ -259,7 +265,7 @@ address {
     footer
    ========*/
 
-   footer {
+footer {
     background: var(--dark-222-color);
     color: var(--light-ddd-color);
     text-align: center;
@@ -292,7 +298,7 @@ a.github-repo {
         padding: 50px 50px;
     }
 
-    .links-section-inner  {   
+    div.links-section-inner  {   
         padding: 60px 50px;
     }
 
@@ -305,6 +311,7 @@ a.github-repo {
         margin: 0 10px 0 0;
         padding: 5px 12px;
         border: 1px solid var(--dark-222-color);
+        cursor: pointer;
     }
     
     nav.lg-navbar {
@@ -320,7 +327,7 @@ a.github-repo {
         grid-gap: 50px 30px;
     }
     
-    .links-section-inner {
+    div.links-section-inner {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
@@ -361,7 +368,7 @@ a.github-repo {
         width: 80px;
     }
     
-    .links-section-inner {
+    div.links-section-inner {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
@@ -405,12 +412,15 @@ a.github-repo {
         width: 60px;
     }
 
-    .links-section-inner  {   
+    div.links-section-inner  {   
         padding: 60px 20px;
         grid-gap: 20px;
     }
 }
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 340px) {
+    .fab, .fas {
+        font-size: 25px;
+        margin: 0 0 0 4px;
+    }
 }
