@@ -1,8 +1,8 @@
 # HTML5 Template Clone
-Google Africa Developer scholarship 2020 task giving by a mentor during the learning phase 1 stage. 
+Google Africa Developer scholarship 2020 task given by GADS2020 mentor [Tolufolorunsho](https://twitter.com/Developer_Tolu) during the learning phase 1 stage. 
 
 ## About task
-The focus of the html5 template clone task is to get us (learners) to make simple project on our own, outside those other projects from the video courses we are given access to watch in the program. It aims to help work on the following:
+No frameworks should be used, only html, css and vanilla javascript. The focus of the html5 template clone task is to get us (learners) to make simple project on our own, outside those other projects from the video courses we are given access to watch in the program. It aims to help work on the following:
 * Website layout (grid and flexbox)
 * Use of css media-queries
 
