@@ -7,7 +7,7 @@ No frameworks should be used, only html, css and vanilla javascript. The focus o
 * Use of css media-queries
 
 ## Page URL
-Visit [github pages link](https://ifycode.github.io/HTML5-Template-Clone/) to see what my solution to the task looks like.
+Visit [github pages link](https://ifycode.github.io/HTML5-Template-Clone/) to see the HTML5 template clone page in the browser.
 
 ## Screenshots
 
